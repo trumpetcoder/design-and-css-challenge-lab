@@ -1,7 +1,7 @@
 /*
 Project Name: Blank Template
 Client: Your Client
-Author: Your Name
+Author: Kevin James
 Developer @GA in NYC
 */
 
@@ -59,6 +59,7 @@ body {
 
 /* Center the container */
 #container {
+  font-family: "Open Sans", sans-serif;
   width: 100%;
   margin: auto;
   height: 500px;
@@ -68,11 +69,133 @@ body {
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  height: 700px;
+  font-size: 24px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #fff;
+  margin-left: 40px;
+  padding-top: 40px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 150px;
+  letter-spacing: 10px;
+}
+
+button {
+  background: #f9e42e;
+  color: #033048;
+  font-weight: 900;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-top: 70px;
+  margin-left: 42%;
+  padding: 15px 50px;
+}
+
+.benefits {
+  background: #f0efef;
+  height: 610px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 40px;
+  padding-top: 100px;
+}
+
+.perfect {
+  font-weight: 300;
+  font-size: 13px;
+  margin-left: 40px;
+  padding-top: 30px;
+  line-height: 30px;
+}
+
+li {
+  font-weight: 300;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 80px;
+  line-height: 20px;
+}
+
+
+.relax {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+  height: 395px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+.relax p {
+  font-weight: 300;
+  font-style: italic;
+  padding-top: 150px;
+}
+
+cite {
+  font-weight: 600;
+}
+
+.yellow {
+  height: 121px;
+  background: #f9e42e;
+}
+
+#button2 {
+  background: #033048;
+  color: #fff;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+  /*margin-left: 42%;*/
+  margin-top: 35px;
 }
 
 footer {
+  background: #121212;
+  height: 350px;
+  text-align: center;
+  color: #f9e42e;
+}
+
+footer h3 {
+  font-weight: 800;
+  font-size: 24px;
+  padding-top: 90px;
+  letter-spacing: 3px;
+}
+
+img {
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 20px;
 
 }
+
+footer p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 9px;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
